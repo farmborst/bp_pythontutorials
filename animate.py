@@ -3,7 +3,6 @@ import matplotlib.animation as animation
 import numpy as np
 
 
-
 def animate(y, x1, y1, x2, y2, dt):
     fig = plt.figure()
     ax = fig.add_subplot(111, autoscale_on=False, xlim=(-3, 3), ylim=(-3, 3))
